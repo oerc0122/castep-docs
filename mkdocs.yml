@@ -65,7 +65,8 @@ nav:
         - 'cell file':  'documentation/Input_Files/cell_file.md'
         - 'param file': 'documentation/Input_Files/param_file.md'
         - 'cell keywords': 'documentation/Input_Files/cell_keywords.md'
-        - 'output files': 'documentation/Input_Files/output_files.md'
+      - 'Output Files':
+        - 'output files': 'documentation/Output_Files/output_files.md'
       - 'Other Codes and Tools':
         - 'Other Codes and Tools': 'documentation/Tools/tools.md'
       - 'Troubleshooting':
