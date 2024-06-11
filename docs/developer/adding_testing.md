@@ -188,8 +188,8 @@ The key files in the `Test` directory are:
 
 `CMakeLists.txt`
 
-:   CMake source file to build test suite in CMake (see: build_system
-    and [Adding tests to be run](#adding-tests-to-be-run))
+:   CMake source file to build test suite in the [CMake build system](build-system.md#cmake)
+    (see: [Adding tests to be run](#adding-tests-to-be-run))
 
 `jobconfig`
 
@@ -317,8 +317,7 @@ simple               = spe-simple bs-simple phonon-simple [...]
 
 #### Adding to CMake
 
-To add the tests to be compatible with the CMake build system (see: [build
-system](developer/build-system.md)) you need to modify the `CMakeLists.txt` at
+To add the tests to be compatible with the [CMake build system](build-system.md#cmake) you need to modify the `CMakeLists.txt` at
 `Test/CMakeLists.txt` and add the category to the list on line 157, which looks like:
 
 ``` CMake
@@ -329,8 +328,7 @@ endforeach()
 
 #### Adding to Make
 
-To add the tests properly to the Make build system (see: [build
-system](developer/build-system.md)) you need to modify the `Makefile` at
+To add the tests properly to the [GNU make build system](build-system.md#gnu-make)) you need to modify the `Makefile` at
 `Test/Makefile` and add the category in several places.
 
 Add it to the list of `.PHONY` :

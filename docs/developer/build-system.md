@@ -10,9 +10,24 @@ relying on GNU Make, which is faster to build and intended for rapid development
 designed to be more intuitive to those who are used to CMake build systems and for automatically detecting the best
 options for the average user.
 
+### CASTEP directory structure
+
+When adding new sources to CASTEP it is important to consider the hierarchical directory/module structure of CASTEP.
+CASTEP sources are currently organised into sub-libraries which each depend on the library above them in the hierarchy.
+
+These libraries, in order of hierarchy are:
+
+- `Utility`
+- `Fundamental`
+- `OTFG`
+- `Dispersion`
+- `Functional`
+
+There are also `Tools` which are separately built programs which depend on the CASTEP sub-libraries.
+
 ### GNU Make
 
-The GNU make system is broken down into a hierarchical tree which build up the required rules for compiling CASTEP on as
+The [GNU make](https://www.gnu.org/software/make/) build system is broken down into a hierarchical tree which build up the required rules for compiling CASTEP on as
 many varied systems as possible while still being isolated and maintable.
 
 The hierarchy of these make files is as follows:
@@ -33,24 +48,9 @@ The hierarchy of these make files is as follows:
      └──── Various make rules for different platforms
 ```
 
-### CASTEP directory structure
-
-When adding new sources to CASTEP it is important to consider the hierarchical directory/module structure of CASTEP.
-CASTEP sources are currently organised into sub-libraries which each depend on the library above them in the hierarchy.
-
-These libraries, in order of hierarchy are:
-
-- `Utility`
-- `Fundamental`
-- `OTFG`
-- `Dispersion`
-- `Functional`
-
-There are also `Tools` which are separately built programs which depend on the CASTEP sub-libraries.
-
 ### CMake
 
-The CMake system is designed to be intuitive for those who are used to CMake build systems while still being familiar to
+The [CMake](https://cmake.org/) system is designed to be intuitive for those who are used to CMake build systems while still being familiar to
 those who are used to the CASTEP GNU Make style syntax. This means that many of the CASTEP CMake variables have names
 which are chosen to match, or are aliased to, the CASTEP GNU Make variables. This is intended to minimise confusion for
 people who transition from GNU Make to CMake.

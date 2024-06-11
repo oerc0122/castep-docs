@@ -32,7 +32,7 @@ nav:
         - 'PIMD': 'documentation/Molecular_Dynamics/pimd.md'
         - 'Hugoniostat': 'documentation/Molecular_Dynamics/hugoniostat.md'
       - 'Transition State Search':
-        - 'Nudged elastic band': 'documentation/Transition_State_Search/neb.md'
+        - 'Nudged Elastic Band': 'documentation/Transition_State_Search/neb.md'
       - 'Exchange-Correlation (XC)':
         - 'Overview': 'documentation/XC/XCoverview.md'
         - 'Controlling XC': 'documentation/XC/XC.md'
@@ -62,11 +62,11 @@ nav:
         - 'Headers': 'documentation/Pseudopotentials/reading_headers.md'
         - 'OTFG string': 'documentation/Pseudopotentials/otfg_string.md'
       - 'Input Files':
-        - 'cell file':  'documentation/Input_Files/cell_file.md'
-        - 'param file': 'documentation/Input_Files/param_file.md'
-        - 'cell keywords': 'documentation/Input_Files/cell_keywords.md'
+        - 'cell File':  'documentation/Input_Files/cell_file.md'
+        - 'param File': 'documentation/Input_Files/param_file.md'
+        - 'Cell Keywords': 'documentation/Input_Files/cell_keywords.md'
       - 'Output Files':
-        - 'output files': 'documentation/Output_Files/output_files.md'
+        - 'Output Files': 'documentation/Output_Files/output_files.md'
       - 'Other Codes and Tools':
         - 'Other Codes and Tools': 'documentation/Tools/tools.md'
       - 'Troubleshooting':
@@ -79,9 +79,9 @@ nav:
       - 'Bands and DOS':
         - 'Plotting - CASTEP tools': 'tutorials/Bands_and_DOS/plotting_perl.md'
         - 'Plotting - SUMO': 'tutorials/Bands_and_DOS/plotting_sumo.md'
-        -  'Semiconductors':      'tutorials/Bands_and_DOS/semiconductors.md'
-        -  'Metals':      'tutorials/Bands_and_DOS/metals.md'
-        -  'Magnetic Materials':      'tutorials/Bands_and_DOS/magnetic.md'
+        - 'Semiconductors':      'tutorials/Bands_and_DOS/semiconductors.md'
+        - 'Metals':      'tutorials/Bands_and_DOS/metals.md'
+        - 'Magnetic Materials':      'tutorials/Bands_and_DOS/magnetic.md'
       - 'Dispersion corrections': 'tutorials/dispersion_corrections/castep-ase-dispersion-tutorial.md'
       - 'Nudged elastic band': 'tutorials/NEB/neb_tutorial.md'
       - 'NMR Shielding':
