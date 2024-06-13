@@ -1,6 +1,6 @@
 # ELF - Electron Localization Function
 
-The ground state electron density, e.g. from a single point calculation or an MD run, etc. contains much useful information. It can be analysed in different ways, and the Electron Localization Function (ELF) is one such. This idea was originally created by AD Becke and KE Edgecombe in J.Chem.Phys. vol 92, 5397 (1990) for the analysis of molecules. The idea was later extended to spin and then to solid state systems by B. Silvi and A. Savin in Nature 371, 686-686 (1994). It was later discovered that the theoretical expressions were not strictly positive definite, and so a correlation correction was added by Emily A. A. Jarvis and Emily A. Carter in J. Phys. Chem. B 105, 4045-4052 (2001), and it is this final form that has been implemented in CASTEP.
+The ground state electron density, e.g. from a single point calculation or an MD run, etc. contains much useful information. It can be analysed in different ways, and the Electron Localization Function (ELF) is one such. This idea was originally created by Becke and Edgecombe[@Becke1990] for the analysis of molecules. The idea was later extended to spin and then to solid state systems by Silvi and Savin[@Silvi1994]. It was later discovered that the theoretical expressions were not strictly positive definite, and so a correlation correction was added by Jarvis and Carter[@Jarvis2001], and it is this final form that has been implemented in CASTEP.
 
 ## ELF theory
 
@@ -50,7 +50,7 @@ The default behaviour is to not compute ELF. It can be turned on by adding
 ```
 CALCULATE_ELF : TRUE
 ```
-to the `.param` file. The ELF will be written out to a binary file, unless the 
+to the `.param` file. The ELF will be written out to a binary file, unless the
 ```
 WRITE_FORMATTED_ELF ; TRUE
 ```
