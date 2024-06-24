@@ -9,6 +9,7 @@ The documentation itself is available at https://castep-docs.github.io/castep-do
 You need python3 set as default then
 ```
  pip install mkdocs-material
+ pip install mkdocs-bibtex
 ```
 And you are ready.  
 ``` 
